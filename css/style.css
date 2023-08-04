@@ -52,4 +52,9 @@ img {
    0 0 25px #03e9f4,
    0 0 50px #03e9f4,
    0 0 100px #03e9f4;
+}
 
+button {
+  font-size: 70px;
+  color: #222
+}

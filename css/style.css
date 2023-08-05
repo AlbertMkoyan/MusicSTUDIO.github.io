@@ -2,15 +2,15 @@ body {
   font-family: "Poppins", sans-serif;
   justify-content: center;
   align-items: up;
-  min-height: 100vh;
+  min-height: 50vh;
   background: #000;
 }
 
 h2 {
-  font-size: 5em;
-  font-weight: 300;
+  font-size: 3em;
+  font-weight: 200;
   color: #222;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.5s;
@@ -57,4 +57,62 @@ img {
 button {
   font-size: 70px;
   color: #222
+}
+
+.container {
+  display: contents;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+.neon-btn {
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 100;
+  transition: 0.2s;
+}
+
+.blue {
+  color: #4cc9f0;
+}
+
+.purple {
+  color: #f038ff;
+}
+
+.green {
+  color: #b9e769;
+}
+
+.yellow {
+  color: #EADDCA;
+}
+
+.neon-btn:hover {
+  color: white;
+  border: 0;
+}
+
+.blue:hover {
+  background-color: #4cc9f0;
+  box-shadow: 10px 10px 50px 6px rgba(76, 201, 240, 1);
+}
+
+.purple:hover {
+  background-color: #f038ff;
+  box-shadow: 10px 10px 50px 6px rgba(240, 56, 255, 1);
+}
+
+.green:hover {
+  background-color: #b9e769;
+  box-shadow: 10px 10px 50px 6px rgba(185, 231, 105, 1);
+}
+
+.yellow:hover {
+  background-color: #EADDCA;
+  box-shadow: 10px 10px 50px 6px rgba(185, 231, 105, 1);
 }

@@ -7,6 +7,7 @@ body {
 }
 
 h2 {
+  display: contents;
   font-size: 3em;
   font-weight: 200;
   color: #222;

@@ -1,54 +1,128 @@
-<!DOCTYPE html>
-<html  lang="ru">
-  <head>
-    <meta name="utf-8">
-    <meta name="author" content="Albert Mkoyan">
-    <meta name="description" content="Тестовая страница">
-    <meta name="keywords" content="тест,проверка,html">
-    <link rel="stylesheet" href="css/style.css">
-  <title>Music</title>
-</head>
-<body>
-  <style>
-      body{
+body {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: up;
+  min-height: 50vh;
+  background: #000;
+}
 
-        background-image: url('https://foni.club/uploads/posts/2023-01/1674332285_foni-club-p-fon-anime-gorizontalnii-1.jpg');
-      }
-      img {
-        outline: 5px solid white;
-      }
-    </style>
-      <h1><div>
-        <h2>Xcho<h2>
-      </div></h1>
-          <div class="container">
-        <p><a href="https://albertmkoyan.github.io/AlbertMkoyan/"><button class="neon-btn blue">Aram Asatryan</button></a><p>
-          <p><button class="neon-btn purple">Miyagi</button><p>
-            <p><button class="neon-btn green">Janaga</button><p>
-              <p><button class="neon-btn yellow">Instasamka</button><p>
-              </div>
-              <p></p>
-              <img src="A.jpeg" width="30%" height="40%" left>
-          <b class="class">Только ты и я</b>
-          <p><audio
-          src="xchoti.mp3" controls>
-          </audio></p>
-          <b class="class">I can fly</b>
-          <p><audio
-          src="xcho2.mp3" controls>
-          </audio></p>
-          <b class="class">А мое солнце светит на небе</b>
-          <p><audio
-          src="xcho.mp3" controls>
-          </audio></p>
-          <b class="class">Забирай мою печаль</b>
-          <p><audio
-          src="xcho1.mp3" controls>
-          </audio></p>
+h2 {
+  font-size: 3em;
+  font-weight: 200;
+  color: #222;
+  letter-spacing: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #32CD32,
+   0 0 25px #32CD32,
+   0 0 50px #32CD32,
+   0 0 100px #32CD32;
+}
+
+b {
+  font-size: 35px;
+  color: pink;
+
+}
+
+img {
+  display: block;
+  margin: 0 right;
+}
 
 
+.class {
+  font-size: 3em;
+  font-weight: 400;
+  color: #222;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
 
+.class:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #32CD32,
+   0 0 25px #32CD32,
+   0 0 50px #32CD32,
+   0 0 100px #32CD32;
+}
 
+button {
+  font-size: 70px;
+  color: #222
+}
 
-  </body>
-</html>
+.container {
+  display: contents;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-around;
+}
+
+.neon-btn {
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 100;
+  transition: 0.2s;
+}
+
+.blue {
+  color: #4cc9f0;
+}
+
+.purple {
+  color: #f038ff;
+}
+
+.green {
+  color: #b9e769;
+}
+
+.yellow {
+  color: #EADDCA;
+}
+
+.neon-btn:hover {
+  color: white;
+  border: 0;
+}
+
+.blue:hover {
+  background-color: #4cc9f0;
+  box-shadow: 10px 10px 50px 6px rgba(76, 201, 240, 1);
+}
+
+.purple:hover {
+  background-color: #f038ff;
+  box-shadow: 10px 10px 50px 6px rgba(240, 56, 255, 1);
+}
+
+.green:hover {
+  background-color: #b9e769;
+  box-shadow: 10px 10px 50px 6px rgba(185, 231, 105, 1);
+}
+
+.yellow:hover {
+  background-color: #EADDCA;
+  box-shadow: 10px 10px 50px 6px rgba(185, 231, 105, 1);
+}
+
+h2, .class {
+  color: black;
+
+  text-shadow:
+    0.5px 0.5px 0 #32CD32,
+    -0.5px 0.5px 0 #32CD32,
+    0.5px -0.5px 0 #32CD32,
+    -0.5px -0.5px 0 #32CD32;
+}

@@ -18,10 +18,10 @@ h2 {
 
 h2:hover {
   color: #fff;
-  text-shadow: 0 0 5px #03e9f4,
-   0 0 25px #03e9f4,
-   0 0 50px #03e9f4,
-   0 0 100px #03e9f4;
+  text-shadow: 0 0 5px #32CD32,
+   0 0 25px #32CD32,
+   0 0 50px #32CD32,
+   0 0 100px #32CD32;
 }
 
 b {
@@ -48,10 +48,10 @@ img {
 
 .class:hover {
   color: #fff;
-  text-shadow: 0 0 5px #03e9f4,
-   0 0 25px #03e9f4,
-   0 0 50px #03e9f4,
-   0 0 100px #03e9f4;
+  text-shadow: 0 0 5px #32CD32,
+   0 0 25px #32CD32,
+   0 0 50px #32CD32,
+   0 0 100px #32CD32;
 }
 
 button {
@@ -115,4 +115,14 @@ button {
 .yellow:hover {
   background-color: #EADDCA;
   box-shadow: 10px 10px 50px 6px rgba(185, 231, 105, 1);
+}
+
+h2, .class {
+  color: black;
+
+  text-shadow:
+    0.5px 0.5px 0 #32CD32,
+    -0.5px 0.5px 0 #32CD32,
+    0.5px -0.5px 0 #32CD32,
+    -0.5px -0.5px 0 #32CD32;
 }
